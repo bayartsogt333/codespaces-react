@@ -20,6 +20,8 @@ function TodoForm(props) {
     };
 
     useEffect(() => {
+        inputRef.current.focus();   // Фокусоо input дээр аваачих
+        // geh meteer textContent-edriinc oorcloh bolomjtoi bhnee.
         inputRef.current.defaultValue = 'Хоол хийх';
     }, []);
 
